@@ -1,0 +1,45 @@
+.flexbox-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+   /* flex: 1;
+   justify-content: center; */
+
+}
+
+.flexbox{
+   
+    color: white;
+    background-color: cadetblue;
+    border: 2px solid green;
+    margin: 25px;
+    width: 250px;
+    /* flex-shrink: 0; */
+
+
+}
+.flexboxitem1{
+    min-height: 100px;
+    /* width: 250px;
+    flex: 1; */
+    flex-shrink: 0;
+}
+.flexboxitem2{
+    min-height: 100px;
+    flex-grow: 4;
+}
+.flexboxitem3{
+    min-height: 100px;
+    
+}
+.flexboxitem3{
+    min-height: 100px;
+    flex-grow: 2;
+}
+.flexboxitem4{
+    min-height: 100px;
+    flex-grow: 1;
+}
+.btn{
+    background-color: black
+   color(srgb rgb(161, 84, 84) green blue)
+}
